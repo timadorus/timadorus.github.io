@@ -1,0 +1,33 @@
+<!--:de-->Timadorus besteht aus einer langen Liste von Komponenten. Hier ist ein Überblick. In Grau dargestellt sind die externen Komponenten, die aus anderen Projekten integriert werden. Die Markierung TBD ("To Be Determined") bedeutet das hier noch keine Komponenten ausgewählt wurden. Sicherlich werden im Laufe des Projektes auch noch Komponenten hinzukommen.
+
+Keine der Komponenten ist Stein gemeißelt. Bei der Auswahl und Integration soll immer auch die Möglichkeit im Hintergrund stehen, diese Implementation einer Komponente auch wieder wechseln zu können. Offene Standards für die Kommunikation zwischen den Komponenten bilden daher ein Fundament der Arbeit. Auch sind die Beobachtung von Alternativen, und die Dokumentation der Gründe sich für eine oder eine andere Komponente zu entscheiden, ein wichtiger Bestandteil des Projektes.
+<h1>Game Server</h1>
+<ul>
+    <li>Spiel-Welt</li>
+    <li>Regel Engine</li>
+    <li>Physik Engine</li>
+    <li>Game Runtime: <a title="Webseite des Red Dwarf Projektes" href="http://www.reddwarf.org">Red Dwarf Server</a> inkl. Persistenzschicht: Berkely DB (Java version)</li>
+    <li>Java Laufzeit Umgebung: Java 1.6</li>
+    <li>Betriebssystem: Ubuntu Linux</li>
+</ul>
+<h1>Game Client (Java)</h1>
+<ul>
+    <li>Server Kommunikation: Red Dwarf Client Bibliothek</li>
+    <li>Game Engine: JMonkeyEngine 3</li>
+    <li>Betriebssystem: überall wo Java 1.6 SE und Java3D verfügbar sind.</li>
+</ul>
+<h1>AI Client</h1>
+<ul>
+    <li>Server Kommunikation: Red Dwarf Client Bibliothek (entweder C++ oder Java)</li>
+</ul>
+<h1>Web Applikation</h1>
+<ul>
+    <li>Verwaltung von Konten und Charaktäre</li>
+    <li>GoogleWebToolkit als GUI-Plattform</li>
+    <li>Datanucleus JDO Implementation als Persitenz Schicht</li>
+</ul>
+<h1>Unterstützungs-Systeme</h1>
+<ul>
+    <li>Zugangsverwaltung: Timadorus Auth Server</li>
+    <li>Monitoring: JMX Agent</li>
+</ul><!--:-->

@@ -1,0 +1,10 @@
+
+img.float-right {
+    float: right;
+    position: relative;
+    width: 30em;
+    top: -6em;
+    margin: 0 0 10px 10px;
+}
+
+

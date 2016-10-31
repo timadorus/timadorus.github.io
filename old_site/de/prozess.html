@@ -1,0 +1,34 @@
+<!--:de--><h1>Der Weg: Software Entwicklungs Prozess Automatisierung</h1>
+Timadorus dient als Mittel der Lehre von Software Entwicklungs Prozess Automatisierung, mit dem Ziel die Arbeit des Software-Entwicklers so weit wie möglich zu automatiseren und Studierenden den Umgang mit den notwendigen Werkzeugen näher zu bringen. Dazu wird in einem regelmäßigen Projekt die die Arbeitsumgebung von Timadorus fortentwickelt und der Einsatz der bereits bestehenden Werkzeuge erklärt.
+
+Ziel der Weiterentwicklung des Prozesses die Lernkurve für den Einsatz aller Werkzeuge zu minimieren. Wesentliches Hilfsmittel ist hierfür das Projekt-Handbuch in dem im Detail alle Vereinbarungen, Konventionen und ausgewählten Werkzeuge dokumentiert sind.
+<h2>Prozessgestaltung</h2>
+Timadorus soll auch als Anschauunsobject für die Umsetzung eines <em>Application Lifecycle Management</em> (ALM) Prozesses dienen. Dabei werden folgende Schritte betrachtet:
+<ol>
+    <li>Anforderungsanalyse und -verwaltung</li>
+    <li>Design</li>
+    <li>Change- und Configuration Management</li>
+        <li>Code-Review Prozess</li>
+    <li>Build Management</li>
+    <li>Test (Unit- und Akzeptanztests)</li>
+    <li>Release Management</li>
+    <li>Deployment</li>
+    <li>Fehlerverfolgung</li>
+    <li>Monitoring and Reporting</li>
+</ol>
+Dies alles wird begleitet von einem kontinuierlichen Projektmanagement und einem definierten Workflow. Kontinuierliche Design- und Code-Styles sorgen für einheitlichen Code.
+<h2>Werkzeuge und Arbeitsmittel</h2>
+<ul>
+    <li>Versionskontrolle mit Subversion (Durchsuchen sie die <a href="http://svn.informatik.haw-hamburg.de/cgi/viewvc_svn.cgi/timadorus/">Quellen von Timadorus</a>)</li>
+    <li>Build Automatisierung mit <a href="http://ant.apache.org/">Apache Ant</a></li>
+    <li>Dependency-Management mit <a href="http://ant.apache.org/ivy">Apache Ivy</a></li>
+    <li>Code-Style Überprüfung mit <a href="http://checkstyle.sourceforge.net/">Checkstyle</a></li>
+    <li>Unit-Tests mit Coverage-Analyse (JUnit mit Cobertura und Emma)</li>
+    <li>Für Web-Anwendung: Tests mit <a href="http://seleniumhq.org/">Selenium</a></li>
+    <li>Continous-Integration mit Jenkins-CI: <a href="http://developer.timadorus.org/hudson/">developer.timadorus.org</a> (an einer Reihe von Stellen wird noch auf Hudson verwiesen. Dies ist der Vorgänger von Jenkins)</li>
+    <li>Deployment with puppet</li>
+</ul>
+<h2>Entwicklungsumgebung</h2>
+<ul>
+    <li>Eclipse mit einer Reihe von Plug-Ins</li>
+</ul><!--:-->
