@@ -9,7 +9,7 @@ lang: en
 
 Timadorus aims to provide tools, services and context for improving the technical
 base for creating MMORPGs. In order to move towards this somewhat lofty goal, Timadorus
-has set a number of goals, some of which are quite challenging. Implementing will be
+has set a number of tasks, some of which are quite challenging. Implementing will be
 the target of a long string of small steps. The ultimate vision is a MMORPG plattform
 supports the same richness of possible game forms as is provided by a [Pen and Paper][https://en.wikipedia.org/wiki/Tabletop_role-playing_game].
 
@@ -50,20 +50,21 @@ reasons to partition the game. But these must be completely transparent to the u
 
 ### Scalable ###
 
-No single component should limit the number of concurrent users of the system,
-regardless whether they be human or technical. The target size for the system is
+''No single component should limit the number of concurrent users of the system,
+regardless whether they be human or technical.''
+
+The target size for the system is
 one million concurrent clients. Also the spatial size of the game world should not
 be restricted.
 
 
 ### Manipulation Resistant ###
 
-
-Cheating should be so hard or be of such little benefit, that nobody can extract a
+''Cheating should be so hard or be of such little benefit, that nobody can extract a
 relevant gain. Cheating should be, if not impossible, at least be so difficult
 that it is more worth while for participant to contribute to the community rather
 than damaging it. And if unwanted manipulation can not be stopped, it should at least
-be detectable.
+be detectable.''
 
 Vital for the discussion on this goal is the consideration what actually constitutes
 cheating and what is a skill full manipulation of a game design. The base for further
@@ -86,13 +87,13 @@ them on the other side.
 There are few areas of computer science that develop as fast a the quality of
 computer generated images and 3D worlds. Decisions made today regarding acceptable
 detail fidelity ensure rendering in real-time on todays hardware can seem out-dated just
-month later.
+months later.
 
 This requires a creation and management of visual resources that is unlike todays
-game industry of re-creating most assets for each product. Rather master models should
+game industry practice of re-creating most assets for each product. Rather master models should
 be of the hight degree of detail possible. Processes, methods and tools to automatically
 down-grade assets for in-game use must be created and deployed. This processing must take
-place with as little human intervention as possible.
+place with as little human intervention as possible. But it should support such intervention if needed or wanted.
 
 
 ## Base Requirements ##
@@ -105,7 +106,7 @@ fulfilled by the new one as well:
 
 The game must react appropriately and quickly to input by the user. While there are many
 techniques to hide server delay and thus allow for a great range of the actual server
-latencies, the game should fell responsive.
+latencies, the game should feel responsive.
 
 ### Persistent ###
 
