@@ -1,13 +1,11 @@
 ---
-title: "Ziele und Ausrichtung"
+title: "Ziele und Ausrichtung des Projekts Timadorus"
 permalink: general_de_goals.html
 sidebar: home_de_sidebar
 lang: de
 ---
 
-# 'Ziele und Ausrichtung des Projekts Timadorus #
-
-Timadorus ist darauf ausgerichtet Werkzeuge, Dienste sowie eine Umgbung zur Verbesserung der technischen Grundlage von MMORPGs zu schaffen. Um sich diesem, etwas hoch gesteckten, Ziel zu nähern  hat sich Timadrus eine Reihe von Aufgaben gestellt. Einige davon sind recht herausfordernd. Eine Umsetzung wird der Gegenstand einer langen Reihe von kleinen Schritten sein. Die letztendliche Vision ist eine MMORPG Plattform welche den gleichen Reichtum an möglichen Spielformen wie ein [Tischrollenspiel][https://de.wikipedia.org/wiki/Pen-%26-Paper-Rollenspiel] bietet.
+Timadorus ist darauf ausgerichtet Werkzeuge, Dienste sowie eine Umgbung zur Verbesserung der technischen Grundlage von MMORPGs zu schaffen. Um sich diesem, etwas hoch gesteckten, Ziel zu nähern  hat sich Timadrus eine Reihe von Aufgaben gestellt. Einige davon sind recht herausfordernd. Eine Umsetzung wird der Gegenstand einer langen Reihe von kleinen Schritten sein. Die letztendliche Vision ist eine MMORPG Plattform welche den gleichen Reichtum an möglichen Spielformen wie ein [Tischrollenspiel](https://de.wikipedia.org/wiki/Pen-%26-Paper-Rollenspiel) bietet.
 
 Für Timadorus ist aber nicht nur das Endziel interessant, sondern auch der Weg um dorthin zu gelangen. Das Projekte wird als Lehrmittel, Forschungswerkzeug und -gegenstand zur Entwicklung von Software als Ingenieursdisziplin verwendet. Einzelheiten wie dies ereicht wird werden [hier][general_de_workflow] gegeben.
 
@@ -18,7 +16,7 @@ Timadorus will ein interesantes MMORPG werden; ein neues MMORPG; ein MMORPG das 
 ### Non-Stop ###
 ''Für Änderungen am Spiel darf es keine Unterbrechung des Dienstes geben''
 
-Den Dienst jeden Mittwoch-morgen für zwei Stundne abzuschalten ist nicht länger akzeptabel. Egal ob es sich um geplante oder ungeplaten Abschaltungen handelt. 
+Den Dienst jeden Mittwoch-morgen für zwei Stundne abzuschalten ist nicht länger akzeptabel. Egal ob es sich um geplante oder ungeplaten Abschaltungen handelt.
 
 ### Keinen Single-Point-of-Failure ###
 ''Es darf keine Komponente existieren deren Ausfall eine Unterbrechung des Dienstes bedeutet. Verschlechterungen müssen für die überwiegende Mehrheit der Benutzer akzeptabel sein und für alle vorübergehend.''
@@ -26,7 +24,7 @@ Den Dienst jeden Mittwoch-morgen für zwei Stundne abzuschalten ist nicht länge
 ### Durchgängig ###
 ''Es darf keine Brüche im Spiel geben, welche die Immersion beinträchtigen. Außerdem darf es keine technische Einschränkngen der Interaktion geben, die für Spieler sichtbar sind.''
 
-Dies bedeutet das es keine Realms, Shards, Zonen oder ähnliches geben kann, welches eine Abgrenzung der Spielerschaft zur Folge hätte. Natürlich können technische Aufteilungen notwendig sein. Aber diese müssen für den Benutzer vollkommen transparent sein. 
+Dies bedeutet das es keine Realms, Shards, Zonen oder ähnliches geben kann, welches eine Abgrenzung der Spielerschaft zur Folge hätte. Natürlich können technische Aufteilungen notwendig sein. Aber diese müssen für den Benutzer vollkommen transparent sein.
 
 ### Skalierbar ###
 Keine Komponente darf die Anzahl der gleichzeitigen Benutzer des Systems begrenzen. Egal ob sie technisch oder menschlich sind. Die Zielgröße für Timadorus im Vollausbau sind eine Million gleichzeitige Benutzer. Ebenso sollte dich räumliche Größe des Systems nicht begrenzt sein.

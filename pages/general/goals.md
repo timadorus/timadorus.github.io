@@ -1,17 +1,16 @@
 ---
-title: "Goals and Aims"
+title: "Goals and Aims of the Project Timadorus"
 permalink: general_goals.html
 sidebar: home_sidebar
 lang: en
 ---
 
-# Goals and Aims of the Project Timadorus #
 
 Timadorus aims to provide tools, services and context for improving the technical
 base for creating MMORPGs. In order to move towards this somewhat lofty goal, Timadorus
 has set a number of tasks, some of which are quite challenging. Implementing will be
 the target of a long string of small steps. The ultimate vision is a MMORPG plattform
-supports the same richness of possible game forms as is provided by a [Pen and Paper][https://en.wikipedia.org/wiki/Tabletop_role-playing_game].
+supports the same richness of possible game forms as is provided by a [Pen and Paper](https://en.wikipedia.org/wiki/Tabletop_role-playing_game).
 
 For Timadorus not only the final goal is of interest, but also the way to get there.
 The project is used a teaching and research tool for developing software as an engineering
