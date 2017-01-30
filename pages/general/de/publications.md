@@ -1,13 +1,13 @@
 ---
-title: "Publications"
-permalink: general_publications.html
-sidebar: home_sidebar
-lang: en
+title: "Veröffentlichungen"
+permalink: general_de_publications.html
+sidebar: home_de_sidebar
+lang: de
 ---
 
-The Project has been the subject or the context of a number of thesis and research publications.
+Das Projekt war der Gegenstand oder Kontext einer Reihe von Abschlussarbeiten und Forschungsveröffentlichungen.
 
-## Conference and Workshop Submissions ##
+## Konferenz- and Workshop-Beiträge ##
 
 
 <dl>
@@ -21,7 +21,7 @@ The Project has been the subject or the context of a number of thesis and resear
   <dd>Lutz Behnke, et al, 2014(<a href="http://users.informatik.haw-hamburg.de/~ubicomp/arbeiten/papers/MMVE-14.pdf">PDF</a>, <a href="http://dl.acm.org/citation.cfm?id=2577389&CFID=787355984&CFTOKEN=91169762">ACM Digital Library</a>)</dd>
 </dl>
 
-## Bachelor Thesis ##
+## Bachelor Arbeiten ##
 
 
 <dl>
