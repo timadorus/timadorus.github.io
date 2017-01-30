@@ -40,8 +40,8 @@ be acceptable to vast majority of users and temporary to all''.
 
 ### Continuous ###
 
-'' There shall be no interruptions to game use that may impact immersion. Also there may
-be limit to interaction for technical reasons visible to users ''
+'' There shall be no interruptions to game interaction that may negatively effect immersion. Also there may
+be limits to interaction due to technical reasons, that are visible to users ''
 
 This will disallow realms, shards, zones or similar that either segregate the user base
 or place limits on the interactions between avatars. Of course there may be technical
