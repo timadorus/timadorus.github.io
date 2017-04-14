@@ -31,7 +31,7 @@ at some point.
 Shutting down the service for two hours every wednesday morning is not acceptable.
 Regardless of planed or unplaned downtime.
 
-### No Simple Point of Failure ###
+### No Single Point of Failure ###
 
 '' There must be no component whose failure will interrupt the service. Degredation must
 be acceptable to vast majority of users and temporary to all''.
