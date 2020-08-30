@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Project Timadorus</title>
+    <link>http://timadorus.org/posts/</link>
+    <description>Recent content in Posts on Project Timadorus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2020 14:16:29 +0200</lastBuildDate>
+    
+	<atom:link href="http://timadorus.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Designing Circe</title>
+      <link>http://timadorus.org/posts/designing-circe/</link>
+      <pubDate>Sun, 30 Aug 2020 14:16:29 +0200</pubDate>
+      
+      <guid>http://timadorus.org/posts/designing-circe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
