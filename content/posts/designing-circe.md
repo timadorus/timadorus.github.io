@@ -68,12 +68,104 @@ The result of combat is dependent on the particular combination of
 1. The weapon used by the participants
 1. The skill of attack and defense of the participants.
 
-The combination of all these factors will provide a consisten result, as there is no such thing as a best weapon, but
+The combination of all these factors will provide a consistent result, as there is no such thing as a best weapon, but
 only the right weapon, used by skilled hands against an opponent armed and armored in a particular way..
+
+## Templates to support
+
+The efficiency of fighting equipment, -trainign and military tactics is largely a function of the opponent the are most likely to face.
+In order to get a better overview which fighting styles to support I have drawn up a list fighters througout the ages
+and the opponnents they where likely facing.
+
+
+### Roman Legionaire, ca. 100 C.E.
+
+Weapons: Thrusting short sword, heavy javelin
+
+Armor: Lorica Segmentata, large Shield, single bowl helmet with reinforcements and a nape guard.
+
+Particulars of fighting style: rapid thrusts with Gladius, only passive defense through shield, armor + helmet and next
+legionaire in the battle line.
+
+Combat Range: 0.5 m
+
+### 15th century civilian duelist
+
+Weapons: Longsword
+
+Particulars of fighting style: all defense through sword use, half-swording for close quarters work.
+
+Combat Range: 2.5 m
+
+### 16th century civilian duelist
+
+Weapons: Thrustng Sword, off-hand dagger
+
+Armor: buckler
+
+Combat Range: 2.5 m
+
+## Handling Initiative, Speed and multiple Attacks
+
+Many roleplaying systems have a concept called Initiative that isolate the actions of the characters one after
+another. The character with the higher initiative gets to complete their action fully before the next character can
+begin to act. There are variations on this, where the character with the higher initiative gets to *declare* last,
+thus allowing them to react to what the slower is planing, but finally all actions are completed before the next one beginns.
+
+While this is very usefull to enable humans players to manage the pandemonium of battle and greatly aid the game master
+in keeping track of the all the events taking place, it is not very realistic.
+
+Thus I would propose a different approach that resembles the concurrent reality of combat a lot better.
+
+1. Characters are either active of passive participants. A character can declare to be passive participant at any
+time. From now on any passive actions or reactions of the character will take place unless declared otherwise
+(e.g. using a shield or evading when being attacked). Usually this is visible to observers by a defensive posture,
+drawing a weapon or unlimbering a shield from a travel position. A character must be aware of the potential combat
+taking place and declare their intention before the combat starts or be subject to a reaction roll (see below).
+1. In compat time is measured by the Combat Time Counter (CTC), a monotonic counter, starting at 0. It starts when the
+first character declares the intention to enter active combat (or the GM determines this for any of the NPCs). 
+1. Any action of the combatants may trigger a reaction by any other characters (e.g. reacting to being hit). If they
+where previously unaware of the combat (e.g. by being ambushed), they first must make a successfull perception check.
+If they have taken damage, the perception check succeeds automatically. Then they must make a Reaction Roll (RR) to
+determine how fast they can enter combat. Only the when the reaction number of ticks has elapsed can they become a
+passive or active participant. Until then they do not benefit from passive actions or reactions.
+
+* while being either passive or active participant in combat, no exclusive actions (e.g. studying) can be performed.
+
+Reaction Roll (RR): determins the number of combat ticks that 
 
 
 ## Attack Resolution
 
+Resolution takes these steps:
+
+1. Add percentile roll ( d% ) to skill bonus in using the particular weapon. Add any circumstancial bonuses for the
+attacker. Subtract any circumstancial bonuses for the defender. See table 1 for a partial list of bonuses.
+1. Does the weapong connect with intended target? If not determine alternate target (other body parts, innocent
+bystanders). If yes determine armor penetration.
+1. Any armor (if any) will transform any attack. This may change the attack type (
 
 
 ## Forms of Damage
+
+* blunt trauma
+* piercing
+* slashing
+* elemental (fire, heat / cold, acid, etc. etc.)
+
+## Special considerations
+
+### Imunities, Resistances, Weaknesses
+
+These are simply modelled as a further "virtual armor" layer beneath any other armor and transform the incoming attack
+according to their function.
+
+# Tables
+
+## Table 1: circumstancial bonuses
+
+* sight impairment
+* combatant is bound or restricted, either by being grappled before or due to insufficient room to manouever.
+* footing insufficient, slippery surface, combat while balancing on small ledge, etc.
+* combatant is wounded or in serious pain or temporarily weakened.
+* magic
