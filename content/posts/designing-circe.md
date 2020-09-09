@@ -25,7 +25,8 @@ The years since then, I have played numerous other PnP games, and have been [LAR
 point took an active interest in HEMA. Especially after seeing a [demonstration
 video](https://www.youtube.com/watch?v=ohmLaZHStmI) by the Gladiatores and watching videos by many HEMA practitioners
 like Mike Loades ([Down from horseback in armour](https://www.youtube.com/watch?v=WMuNXWFPewg)) and [Matt Easton]() of
-Scholagladiatora. In particular the video on [Which sort is the best sword in a
+Scholagladiatora. More recently some scientify studies by French and Swiss grops, e.g. by [Jean
+Jaque](https://www.youtube.com/watch?v=pAzI1UvlQqw). In particular the video on [Which sort is the best sword in a 
 one-on-one duel](https://www.youtube.com/watch?v=9qJBGlChcXU). Answer: it depends. 
 
 At some point I decided to design a new combat system for PnP roleplaying games from the ground up. The result of this
@@ -60,7 +61,7 @@ Non-goals are also vital to the form of the design:
   have a computer or tablet when playing the game, each connected to the internet (or to each other in a pinch). Thus
   the attack resolution can be done by the computers and be displayed in a compelling way. The dice rolls should be done
   by the players, as this is an integral part of the PnP experience. But the GM can let computer resolve the attacks,
-  expecially when dealing with four times 66 Barbarians.
+  especially when managing the attack of four times 66 Barbarians.
 
 
 The result of combat is dependent on the particular combination of
@@ -77,12 +78,24 @@ The efficiency of fighting equipment, -trainign and military tactics is largely 
 In order to get a better overview which fighting styles to support I have drawn up a list fighters througout the ages
 and the opponnents they where likely facing.
 
+### Athenian Hopplite, ca 350 B.C.E.
+
+Weapons: Long Spear (2.5m - 3.0m), Bronze single edge sword
+
+Armor: Linothorax, large round shield, bronze greaves, bronze helm.
+
+Particulars of fighting style: very close packed formation (Phalanx) for mutual support. Shield wall neigh impregnable
+to weapons of area. Pushing of army formations a viable combat tactic. Individula soldiers have a largely reduced combat
+effectiveness, but still great reach with spear. Groups allow largely passive use of shield, in single combat it needs
+to be used actively.
+
+Combat Range: 2.0m
 
 ### Roman Legionaire, ca. 100 C.E.
 
 Weapons: Thrusting short sword, heavy javelin
 
-Armor: Lorica Segmentata, large Shield, single bowl helmet with reinforcements and a nape guard.
+Armor: Lorica Segmentata, large rectengular shield, single bowl helmet with reinforcements and a nape guard.
 
 Particulars of fighting style: rapid thrusts with Gladius, only passive defense through shield, armor + helmet and next
 legionaire in the battle line.
@@ -134,6 +147,8 @@ passive or active participant. Until then they do not benefit from passive actio
 
 Reaction Roll (RR): determins the number of combat ticks that 
 
+## Armor
+
 
 ## Attack Resolution
 
@@ -152,6 +167,7 @@ bystanders). If yes determine armor penetration.
 * piercing
 * slashing
 * elemental (fire, heat / cold, acid, etc. etc.)
+
 
 ## Special considerations
 

@@ -5,3 +5,5 @@ _pdf
 .idea/
 .DS_Store
 *~
+\#*#
+.#*#
