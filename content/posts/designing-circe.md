@@ -102,6 +102,15 @@ legionaire in the battle line.
 
 Combat Range: 0.5 m
 
+### 13th century Knight
+
+Weapons: Lance, Mace
+
+Particulars of fighting style: initial strike with couched lance, further attacks with a mace and the well trained horse
+the knight rides on.
+
+Combat Range: 2.5m initially, 0.5m for further attacks. 
+
 ### 15th century civilian duelist
 
 Weapons: Longsword
@@ -145,12 +154,72 @@ passive or active participant. Until then they do not benefit from passive actio
 
 * while being either passive or active participant in combat, no exclusive actions (e.g. studying) can be performed.
 
-Reaction Roll (RR): determins the number of combat ticks that 
+Reaction Roll (RR): determins the number of combat ticks that have to pass before a participants can act after first
+becoming aware of being in combat.
 
 ## Armor
 
+Armor can work to protect the wearer in one or both of two ways: either reducing the power of the attack by being
+damaged or destroyed as a crumple zone in a car. E.g. a gambeson that will reduce the penetration depth of an
+arrow, but also be punctured, taking damage over time. The other way is to distributes the force of any impact over a
+larger area. This latter works at a smaller area like the (chain) mail shirt protecting against cuts, or larger like a
+plate of armor that distributes a strike over the complete body part.
+
+Therefore, for each attack a number of results have to be computated: does the weapon connect with the wearer? And where
+exactly? This will determine the exact composition of armor. Can the attack break through the armor and how much does
+that reduce the attack power. If it can, how much damage does that cause to the armor? If it can not be broken through, by
+how much is the power reduced.  If there are multiple layers of armor this process has to repeated for each.
+
+The level of protection of each type of armor depends heavily of the type of attack
+
+### Material
+
+* flexible: linen, iron mail
+* non-flexible organic: cuir buili
+* non-flexible non-organic: copper plate, iron plate, steel plate
+
+### Konstruction:
+
+Not only the material of the armor informs its effectiveness, but also the method with which non-flexible elements are
+connected to each other. 
+
+* flexible (fabric, mail)
+* overlapping (scale)
+* segmented (lamellar, do-maru, coat-of-plates, Brigantine)
+* articulated (plate)
+* solid (cuir buili, plate) 
+
+
+| Armor Type | Cut | Slash | Pierce | Concussion | Unbalancing |  
+|------------|-----|-------|--------|------------|-------------|--
+|
+
 
 ## Attack Resolution
+
+### Fundamental Concept
+
+The attack resolution needs to model the probability of hitting a target at all and that of a particular part of the
+body in order to determine the levels of protection present.
+
+The area available for hitting is represented as the area of a circle that is proportional to the surface of the body
+that can be hit by the attacking weapon. This base size of this area depends on the weapon (e.g. a chain-and-ball may
+wrap around a body while a thrusting weapon may only attack the front). 
+
+For resolving an attack the area of this circle is scaled accordingly
+
+* increased when the target is moving in an evasive maneuver
+* increased when the target is parrying the attack (this includes using a shield actively)
+* decreased for proficiency with the weapons used.
+
+if the resultant area is partitioned accoding to the relative size of the various areas of the target. If the resultant
+area is larger than the base area computed initialy, this represents a chance that the attack may fail.
+
+Example for a human body: an athletic human of about 1.8m height  has a frontal area of $0.7m^2$. This is split between
+the head, the torso and the extremeties.
+
+
+### Resolving Attacks
 
 Resolution takes these steps:
 
